@@ -1,0 +1,38 @@
+body {
+	background-color: #006060;
+}
+.fish {
+	color: orange;
+	text-decoration: underline;
+}
+
+.mammal {
+	color: red;
+	font-weight: bold;
+}
+
+.birds {
+	color: blue;
+	font-style: italic;
+}
+
+li {
+	background-color: #ffffff;
+	padding: 30px;
+	font-size: 30px;
+	width: 15%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+li:hover {
+	opacity: 0.5;
+	font-weight: bold;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
